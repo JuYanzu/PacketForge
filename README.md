@@ -261,3 +261,7 @@ C 组（额外开 Runtime）在本次测试中**没有**复现出稳定差异（
 - 请求断点条件（按响应状态、耗时、大小）
 - 录制/回放完整用户会话
 - 与 Burp 双向同步
+  
+## 创作不易 感谢支持
+<img width="828" height="1124" alt="87b07bb227a3f3981109124e0ecdb0fc" src="https://github.com/user-attachments/assets/d36886ac-d8d0-492a-b461-5614250ef67d" />
+<img width="1708" height="2560" alt="7030e4f4e62192f41a5f522b70b8596a" src="https://github.com/user-attachments/assets/a86d539a-67e1-4252-bc1a-28d24128f55c" />
