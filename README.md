@@ -6,6 +6,7 @@ PacketForge 是橘先生开发的一款 Chrome 扩展（v1.1.0），基于 Chrom
 > 版本：v1.1.0
 
 基于 Chrome DevTools Protocol（CDP）的浏览器抓包工作台。不依赖外部代理，装完即用。
+<img width="1920" height="977" alt="image" src="https://github.com/user-attachments/assets/e0843f3c-3eef-4cc8-9a2d-463d1f85efda" />
 
 ## 功能
 
@@ -263,5 +264,5 @@ C 组（额外开 Runtime）在本次测试中**没有**复现出稳定差异（
 - 与 Burp 双向同步
   
 ## 创作不易 感谢支持
-<img width="828" height="1124" alt="87b07bb227a3f3981109124e0ecdb0fc" src="https://github.com/user-attachments/assets/d36886ac-d8d0-492a-b461-5614250ef67d" />
-<img width="1708" height="2560" alt="7030e4f4e62192f41a5f522b70b8596a" src="https://github.com/user-attachments/assets/a86d539a-67e1-4252-bc1a-28d24128f55c" />
+<img width="300" height="300" alt="87b07bb227a3f3981109124e0ecdb0fc" src="https://github.com/user-attachments/assets/d36886ac-d8d0-492a-b461-5614250ef67d" />
+<img width="300" height="300" alt="7030e4f4e62192f41a5f522b70b8596a" src="https://github.com/user-attachments/assets/a86d539a-67e1-4252-bc1a-28d24128f55c" />
