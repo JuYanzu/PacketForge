@@ -1,9 +1,9 @@
-# PacketForge · 浏览器抓包 / 拦截 / 重放
-PacketForge 是橘先生开发的一款 Chrome 扩展（v1.1.0），基于 Chrome DevTools Protocol（CDP） 的浏览器抓包工作台。它不依赖 Charles/mitmproxy 这类外部代理，装好扩展就能用。
+橘先生刀枪炮 · 浏览器抓包 / 拦截 / 重放
+橘先生刀枪炮 · 浏览器抓包 / 拦截 / 重放 是橘先生开发的一款 Chrome 扩展（v1.1.0），基于 Chrome DevTools Protocol（CDP） 的浏览器抓包工作台。它不依赖 Charles/mitmproxy 这类外部代理，装好扩展就能用。
 简单说：想在不装代理、不碰证书的前提下，对浏览器流量做抓包、改包、重放和导出，这是目前最贴近"原生流量"的一条路。适合接口调试、安全测试和逆向分析场景。
 
 > 作者：**橘先生**
-> 版本：v1.1.0
+> 版本：v1.1.1
 
 基于 Chrome DevTools Protocol（CDP）的浏览器抓包工作台。不依赖外部代理，装完即用。
 <img width="1920" height="977" alt="image" src="https://github.com/user-attachments/assets/e0843f3c-3eef-4cc8-9a2d-463d1f85efda" />
@@ -11,6 +11,11 @@ PacketForge 是橘先生开发的一款 Chrome 扩展（v1.1.0），基于 Chrom
 <img width="1920" height="522" alt="image" src="https://github.com/user-attachments/assets/5d2243fd-9230-4ec6-a3e3-a49c82c460c8" />
 <img width="1920" height="903" alt="image" src="https://github.com/user-attachments/assets/c5e83db8-3848-4533-a250-6ba3e6ac2e43" />
 <img width="1920" height="701" alt="image" src="https://github.com/user-attachments/assets/17820915-fa9c-4ce4-871f-39939babe22f" />
+
+> 作者：**橘先生**
+> 版本：v1.1.1
+
+基于 Chrome DevTools Protocol（CDP）的浏览器抓包工作台。不依赖外部代理，装完即用。
 
 ## 功能
 
@@ -29,7 +34,7 @@ PacketForge 是橘先生开发的一款 Chrome 扩展（v1.1.0），基于 Chrom
 
 1. 打开 `chrome://extensions/`
 2. 右上角打开「开发者模式」
-3. 点「加载已解压的扩展程序」→ 选择本目录（`packet-forge`）
+3. 点「加载已解压的扩展程序」→ 选择本目录（`juxiansheng`）
 4. 点扩展图标 → 「打开工作台」
 
 > 需要 Chrome 116+（`chrome.debugger` 在 MV3 下稳定工作）。
@@ -89,6 +94,7 @@ PacketForge 是橘先生开发的一款 Chrome 扩展（v1.1.0），基于 Chrom
 
 ```
 manifest.json          MV3 配置
+icons/                 扩展图标（16/32/48/128）
 bg/
   service-worker.js    CDP 会话、抓包事件、拦截队列、消息路由
   db.js                IndexedDB 封装（records / bodies 分离存储）
@@ -266,7 +272,3 @@ C 组（额外开 Runtime）在本次测试中**没有**复现出稳定差异（
 - 请求断点条件（按响应状态、耗时、大小）
 - 录制/回放完整用户会话
 - 与 Burp 双向同步
-  
-## 创作不易 感谢支持
-<img width="300" height="300" alt="87b07bb227a3f3981109124e0ecdb0fc" src="https://github.com/user-attachments/assets/d36886ac-d8d0-492a-b461-5614250ef67d" />
-<img width="300" height="300" alt="7030e4f4e62192f41a5f522b70b8596a" src="https://github.com/user-attachments/assets/a86d539a-67e1-4252-bc1a-28d24128f55c" />
