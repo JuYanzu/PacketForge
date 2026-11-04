@@ -1,5 +1,5 @@
 橘先生刀枪炮 · 浏览器抓包 / 拦截 / 重放
-橘先生刀枪炮 · 浏览器抓包 / 拦截 / 重放 是橘先生开发的一款 Chrome 扩展（v1.1.0），基于 Chrome DevTools Protocol（CDP） 的浏览器抓包工作台。它不依赖 Charles/mitmproxy 这类外部代理，装好扩展就能用。
+是橘先生开发的一款 Chrome 扩展（v1.1.0），基于 Chrome DevTools Protocol（CDP） 的浏览器抓包工作台。它不依赖 Charles/mitmproxy 这类外部代理，装好扩展就能用。
 简单说：想在不装代理、不碰证书的前提下，对浏览器流量做抓包、改包、重放和导出，这是目前最贴近"原生流量"的一条路。适合接口调试、安全测试和逆向分析场景。
 
 > 作者：**橘先生**
@@ -12,10 +12,6 @@
 <img width="1920" height="903" alt="image" src="https://github.com/user-attachments/assets/c5e83db8-3848-4533-a250-6ba3e6ac2e43" />
 <img width="1920" height="701" alt="image" src="https://github.com/user-attachments/assets/17820915-fa9c-4ce4-871f-39939babe22f" />
 
-> 作者：**橘先生**
-> 版本：v1.1.1
-
-基于 Chrome DevTools Protocol（CDP）的浏览器抓包工作台。不依赖外部代理，装完即用。
 
 ## 功能
 
@@ -272,3 +268,7 @@ C 组（额外开 Runtime）在本次测试中**没有**复现出稳定差异（
 - 请求断点条件（按响应状态、耗时、大小）
 - 录制/回放完整用户会话
 - 与 Burp 双向同步
+
+## 创作不易 感谢支持
+<img width="300" height="300" alt="87b07bb227a3f3981109124e0ecdb0fc" src="https://github.com/user-attachments/assets/63e0e45b-81d2-43e3-9bd5-6a00a07987f8" />
+<img width="300" height="300" alt="7030e4f4e62192f41a5f522b70b8596a" src="https://github.com/user-attachments/assets/8504d6b6-b52e-4b74-b767-260c049b3485" />
